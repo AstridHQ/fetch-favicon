@@ -1,6 +1,6 @@
 {
-  "name": "@getstation/fetch-favicon",
-  "version": "0.0.4-rc.2",
+  "name": "@astridhq/fetch-favicon",
+  "version": "0.0.4-rc.3",
   "description": "Fetch a great looking favicon from a website",
   "main": "dist/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/getstation/fetch-favicon"
+    "url": "https://github.com/astridhq/fetch-favicon"
   },
   "keywords": [
     "favicon",
@@ -26,9 +26,9 @@
   "author": "Meltwater",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/getstation/fetch-favicon/issues"
+    "url": "https://github.com/astridhq/fetch-favicon/issues"
   },
-  "homepage": "https://github.com/getstation/fetch-favicon",
+  "homepage": "https://github.com/astridhq/fetch-favicon",
   "devDependencies": {
     "babel-core": "^6.3.26",
     "babel-eslint": "6.0.0",
