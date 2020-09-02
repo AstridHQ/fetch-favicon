@@ -17,6 +17,7 @@ module.exports = {
     (f, s) => f.name === 'twitter:image' && f.size >= s,
     (f, s) => f.name === 'shortcut icon' && f.size >= s,
     (f, s) => f.name === 'icon' && f.size >= s,
+    (f, s) => f.name === 'og:logo' && f.size >= s,
     (f, s) => f.name === 'og:image' && f.size >= s,
     (f, s) => f.name === 'msapplication-TileImage' && f.size >= s,
 
@@ -25,6 +26,7 @@ module.exports = {
     (f, s) => f.name === 'twitter:image',
     (f, s) => f.name === 'shortcut icon',
     (f, s) => f.name === 'icon',
+    (f, s) => f.name === 'og:logo',
     (f, s) => f.name === 'og:image',
     (f, s) => f.name === 'msapplication-TileImage',
     (f, s) => f.name === 'favicon.ico'
